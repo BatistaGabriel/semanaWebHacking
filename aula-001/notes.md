@@ -47,4 +47,4 @@ $ wfuzz -t 100 -Z -c -z file,lista.txt --hc 404 https://cshosting.crowsec.com.br
 
 ```
 
-> Link do notiondo Kadu: https://www.notion.so/SWH-Recon-dd4176f908cd47f08472c05a877ae2b1
+> Link do notion do Kadu: https://www.notion.so/SWH-Recon-dd4176f908cd47f08472c05a877ae2b1
