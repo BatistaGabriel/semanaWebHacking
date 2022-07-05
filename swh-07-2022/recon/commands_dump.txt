@@ -1,0 +1,145 @@
+    1  clear
+    2  exit
+    3  clear
+    4  sudo su
+    5  vim ~\.vimrc
+    6  vim ~\.gitconfig
+    7  sudo su
+    8  sudo apt install build-essential qmlscene qt5-qmake qt5-default qtdeclarative5-dev qml-module-qtquick-controls2 qml-module-qtgraphicaleffects qml-module-qtquick-dialogs qml-module-qtquick-localstorage qml-module-qtquick-window2 qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel
+    9  git clone --recursive https://github.com/Swordfish90/cool-retro-term.git
+   10  cd cool-retro-term
+   11  qmake && make
+   12  sudo apt-get install qt5-default
+   13  export PATH=/opt/Qt5.12.x/Qt5.12.x/gcc_64/bin/:$PATH
+   14  qmake && make
+   15  ./cool-retro-term
+   16  qmake
+   17  $PATH
+   18  ls /opt
+   19  sudo ls /opt
+   20  cd /mnt/c/Workspace/Projects/studies/swh-07-2022/
+   21  clear
+   22  wget https://crowsec.notion.site/Recon-e9a102e945b145fa83fbf926eb707f9a
+   23  ls
+   24  curl https://crowsec.notion.site/Recon-e9a102e945b145fa83fbf926eb707f9a
+   25  clear
+   26  ls
+   27  rm -rf Recon-e9a102e945b145fa83fbf926eb707f9a 
+   28  wget https://www.isecom.org/OSSTMM.3.pdf
+   29  ls
+   30  git clone git clone https://github.com/danielmiessler/SecLists.git
+   31  git clone https://github.com/danielmiessler/SecLists.git
+   32  clear
+   33  nmap https://worksn.com.br/login
+   34  clear
+   35  ping https://worksn.com.br/login
+   36  ping worksn.com.br/login
+   37  ping
+   38  ping 8.8.8.8
+   39  sudo apt install nmap -y
+   40  clear
+   41  nmap worksn.com.br -v
+   42  clear
+   43  curl https://worksn.com.br -v
+   44  curl https://worksn.com.br/phpinfo.php -v
+   45  clear
+   46  curl https://worksn.com.br -v
+   47  mkdir recon
+   48  cd recon/
+   49  vim scan.py
+   50  ./scan.py
+   51  python3 ./scan.py
+   52  cat ./scan.py 
+   53  python3 ./scan.py
+   54  clear
+   55  python3 ./scan.py
+   56  clear
+   57  python3 ./scan.py
+   58  ls
+   59  cd ..
+   60  ls
+   61  ls SecLists/
+   62  ls SecLists/Discovery/
+   63  ls SecLists/Discovery/Web-Content/
+   64  head -1000 SecLists/Discovery/Web-Content/common.txt >> /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/arquivos.txt
+   65  ls
+   66  cd recon/
+   67  ls
+   68  grep -Rl arquivos.txt | wc l
+   69  grep -Rl arquivos.txt | wc -l
+   70  cat arquivos.txt 
+   71  vc -l arquivos.txt 
+   72  wc -l arquivos.txt 
+   73  clear
+   74  python3 ./scan.py
+   75  ls
+   76  clear
+   77  python3 ./scan.py
+   78  clear
+   79  ls
+   80  cd ..
+   81  ls
+   82  cp SecLists/Discovery/Web-Content/big.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+   83  cp SecLists/Discovery/Web-Content/common.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+   84  ls
+   85  cd recon/
+   86  ls
+   87  cp SecLists/Discovery/Web-Content/raf-large-files.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+   88  cp SecLists/Discovery/Web-Content/raft-large-files.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+   89  tail -n 10 SecLists/Discovery/Web-Content/raft-large-files.txt
+   90  ls SecLists/Discovery/Web-Content/
+   91  ls ./SecLists/Discovery/Web-Content/
+   92  ls
+   93  cd ..
+   94  ls
+   95  ls SecLists/Discovery/Web-Content/
+   96  tail -n 10 SecLists/Discovery/Web-Content/raft-large-files.txt
+   97  cp ./SecLists/Discovery/Web-Content/raft-large-files.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+   98  ls
+   99  ls recon/
+  100  cp ./SecLists/Discovery/Web-Content/raft-large-directories.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+  101  ls
+  102  cd recon/
+  103  clear
+  104  ls
+  105  pip install wfuzz
+  106  pip3 install wfuzz
+  107  sudo pip3 install wfuzz
+  108  pip install --upgrade pip
+  109  export PATH=/home/capybara/.local/bin:$PATH
+  110  echo $PATH
+  111  pip install --upgrade pip
+  112  pip3 install wfuzz
+  113  pip3 install pycurl
+  114  wfuzz
+  115  apt install wfuzz
+  116  sudo apt install wfuzz
+  117  wfuzz
+  118  clear
+  119  ls
+  120  wfuzz
+  121  ls
+  122  wfuzz -z file,arquivos.txt https://worlsn.com.br/FUZZ
+  123  wfuzz -z file,arquivos.txt https://worksn.com.br/FUZZ
+  124  clear
+  125  wfuzz -z file,arquivos.txt --hl 0 https://worksn.com.br/FUZZ
+  126  wfuzz -t 200 -z file,arquivos.txt --hl 0 https://worksn.com.br/FUZZ
+  127  ls
+  128  wfuzz -t 200 -z file,raft-large-files.txt --hl 0 https://worksn.com.br/FUZZ
+  129  sudo apt-get install redis-tools
+  130  redis-cli -h redis-e592c95604995990.elb.us-east-1.amazonaws.com -p 6379 PING
+  131  sudo apt install redis -y
+  132  clear
+  133  redis-cli -h redis-e592c95604995990.elb.us-east-1.amazonaws.com -p 6379 PING
+  134  redis-cli
+  135  clear
+  136  redis-cli -h redis-e592c95604995990.elb.us-east-1.amazonaws.com -p 6379
+  137  wfuzz -t 200 -z file,big.txt --hl 0 --hc 404,403 https://worksn.com.br/FUZZ
+  138  clear
+  139  cp ./SecLists/Discovery/Web-Content/quickhits.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+  140  cp /mnt/c/Workspace/Projects/studies/swh-07-2022/SecLists/Discovery/Web-Content/quickhits.txt /mnt/c/Workspace/Projects/studies/swh-07-2022/recon/
+  141  wfuzz -t 200 -z file,quickhits.txt --hl 0 --hc 404,403 https://worksn.com.br/FUZZ
+  142  history | xclip
+  143  history
+  144  history | clip
+  145  history >> commands_dump.txt
